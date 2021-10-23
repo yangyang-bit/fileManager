@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item_copy"
+
+        android:title="复制"
+        android:orderInCategory="1"
+        >
+    </item>
+    <item
+        android:id="@+id/item_cut"
+        android:title="剪切"
+        android:orderInCategory="2"
+        >
+    </item>
+    <item
+        android:id="@+id/item_move"
+        android:title="移动"
+        android:orderInCategory="3"
+        >
+    </item>
+    <item
+        android:id="@+id/item_delete"
+        android:title="删除"
+        android:orderInCategory="4"
+        >
+    </item>
+</menu>
